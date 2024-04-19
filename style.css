@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(12, 12, 12);
+}
+.main{
+    height: 55vh;
+    width: 50vh;
+    text-align: center;
+    background-color:rgba(0, 255, 255, 0.103);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 5vh ;
+    border: 1px solid cyan;
+    border-radius: 1vw;
+}
+.display{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    margin-top: 5vh;
+    background-color: aliceblue;
+    margin-bottom: 5vh;
+}
+.display input {
+    border: none;
+}
+#pass{
+    width: 100%;
+    padding-left: 2vw;
+    color: black;
+    font-size: 1rem;
+}
+button{
+    color: black;
+    background-color: aquamarine;
+    border: none;
+    padding: 1.5vh 2vh;
+    font-size: 1rem;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .main{
+        width: 90%;
+    }
+}
